@@ -3,10 +3,11 @@ body{
 }
 /* menu-bar block */
 .menu-bar{
-    height: 10%;
+    height: 15%;
     width: 90%;
     padding: 0 5%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
 
     display: flex;
     justify-content: space-between;
@@ -14,9 +15,10 @@ body{
 }
     .menu-bar__logo{
         height: 80%;
+        width: 7%;
     }
     .menu-bar__nav{
-
+        padding-left: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -24,7 +26,8 @@ body{
     }
 
     .menu-bar__item{
-        display: inline-block; 
+        display: inline-block;
+        font-size: 1.1em; 
     }
 
     .menu-bar__link{
@@ -62,6 +65,7 @@ body{
         }
 
 /* intro block */
+
 .intro{
     display: flex;
 }
@@ -76,10 +80,32 @@ body{
             gap: 1.5em;
         }
 
+        .intro__container--right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     .intro__apresentation{
-        font-family: 'Dosis', sans-serif;
-        font-size: 4rem;
-        font-weight: 700;
+        font-family: 'Lora', sans-serif;
+        font-size: 4em;
+        line-height: 1.2em;
+        font-weight: 600;
+    }
+
+    .intro__description{
+        font-size: 1.2em;
+        line-height: 1.3em;
+        text-align: justify;
+    }
+
+    .intro__description strong{
+        color: #2540ac;
+        font-weight: bold;
+    }
+
+    .intro__foto-perfil{
+        width: 70%;
     }
 
 
