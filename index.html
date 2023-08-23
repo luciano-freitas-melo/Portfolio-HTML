@@ -4,10 +4,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link para o reset CSS -->
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
     <title>Luciano de Freitas</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header class="menu-bar">
+        <img 
+            src="./assets/icone_preto.png" 
+            alt="logo com um L central desenhado" 
+            class="menu-bar__logo"
+        />
+        <ul class="menu-bar__nav">
+            <li class="menu-bar__item">
+                <a class="menu-bar__link menu-bar__link--selected" href="index.html">Home</a class="menu-bar__link">
+            </li>
+            <li class="menu-bar__item">
+                <a class="menu-bar__link" href="projects.html">Projetos</a>
+            </li>
+            <li class="menu-bar__item">
+                <a class="menu-bar__link" href="./pages/About/about.html">Sobre mim</a>
+            </li>
+        </ul>
+        <button class="menu-bar__button">Entre em contato</button>
+    </header>
+
+    <section class="intro">
+        <div class="intro__container intro__container--left">
+            <h1 class="intro__apresentation">Eai! eu sou <br/> Luciano de Freitas</h1>  
+            <p class="intro__description">Sou um desenvolvedor <strong>web fullstack</strong>, graduando em <strong>engenharia de software</strong> que tem foco em <strong>inovação e qualidade</strong> e adora novos desafios!</p>
+        </div>
+        <div class="intro__container intro__container--left">
+            <img 
+                src="./assets/icone_preto.png" 
+                alt="logo com um L central desenhado" 
+                class="intro__logo"
+            />
+        </div>
+        
+
+    </section>
     
 </body>
 </html>

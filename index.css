@@ -1,0 +1,85 @@
+body{
+    background-color: #ecece9;
+}
+/* menu-bar block */
+.menu-bar{
+    height: 10%;
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .menu-bar__logo{
+        height: 80%;
+    }
+    .menu-bar__nav{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.8rem;
+    }
+
+    .menu-bar__item{
+        display: inline-block; 
+    }
+
+    .menu-bar__link{
+        text-decoration: none;
+        color: black;
+    }
+
+        .menu-bar__link:hover{
+            color: #7b3d83;
+        }
+
+        .menu-bar__link--selected{
+            color:#7b3d83;
+            font-weight: bold;
+            cursor: default;
+        }
+
+    .menu-bar__button{
+        padding: 1em 2em;
+        border: solid gray;
+
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        cursor: pointer;
+        
+    }
+
+        .menu-bar__button:hover{
+            background-color: #7b3d83;
+            border: solid #7b3d83;
+            color: white;
+        }
+
+/* intro block */
+.intro{
+    display: flex;
+}
+    .intro__container{
+        width: 50%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        .intro__container--left{
+            gap: 1.5em;
+        }
+
+    .intro__apresentation{
+        font-family: 'Dosis', sans-serif;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+
