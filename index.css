@@ -2,71 +2,6 @@ body {
   background-color: #ecece9;
 }
 
-/* menu-bar block */
-.menu-bar {
-  height: 15%;
-  width: 90%;
-  padding: 0 5%;
-  margin-top: 1%;
-  margin-bottom: 5%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-  .menu-bar__logo {
-    height: 80%;
-    width: 7%;
-  }
-
-  .menu-bar__nav {
-    padding-left: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3em;
-  }
-
-  .menu-bar__item {
-    display: inline-block;
-    font-size: 1.1em;
-  }
-
-  .menu-bar__link {
-    text-decoration: none;
-    color: black;
-  }
-
-    .menu-bar__link:hover {
-      color: #7b3d83;
-    }
-
-    .menu-bar__link--selected {
-      color: #7b3d83;
-      font-weight: bold;
-      cursor: default;
-    }
-
-  .menu-bar__button {
-    padding: 1em 2em;
-    border: solid gray;
-
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-
-    cursor: pointer;
-
-  }
-
-    .menu-bar__button:hover {
-      background-color: #7b3d83;
-      border: solid #7b3d83;
-      color: white;
-    }
-
 /* intro block */
 
 .intro {
@@ -158,7 +93,8 @@ body {
 
   .contacts__item:hover{
     color: #2540ac;
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
+    font-weight: bold;
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
   }
