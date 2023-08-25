@@ -1,5 +1,17 @@
 # Coisinhas para adicionar no portfolio
-
+## root para ter uma cor padrão no projeto
+```css
+:root {
+    --main-color: #d12929;
+    --text-color: #8793ae;
+    --text-color2: #bdbdbd;
+    --bg-color: #06192e;
+    --big-font: 5rem;
+    --big-font2: 3rem;
+    --h2-font: 2rem;
+    --p-font: 0.9rem;
+}
+```
 ## Link para os contatos - Smitizndsf
 ``` html
 <div>
