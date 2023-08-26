@@ -1,5 +1,7 @@
-body {
-  background-color: #ecece9;
+body{
+  background-image: url(/assets/1092593.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* intro block */
@@ -76,7 +78,17 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75em;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    /* removes <a> underline */
+    text-decoration: none;
   }
+
+    .contacts__item-container:hover{
+      transform: translateX(12px)
+    }
 
   .contacts__icon{
     width: 1.5em;
@@ -84,17 +96,14 @@ body {
 
   .contacts__item{
     font-family: 'Lora', sans-serif;
-    text-decoration: none;
     color: black;
     font-size: 1.2em;
-
-    transition: all 0.1s ease-in-out;
   }
 
-  .contacts__item:hover{
-    color: #2540ac;
-    font-weight: bold;
-    -ms-transform: scale(1.02); /* IE 9 */
-    -webkit-transform: scale(1.02); /* Safari 3-8 */
-    transform: scale(1.02); 
-  }
+    .contacts__item:hover{
+      color: #2540ac;
+      font-weight: bold;
+      -ms-transform: scale(1.02); /* IE 9 */
+      -webkit-transform: scale(1.02); /* Safari 3-8 */
+      transform: scale(1.02); 
+    }
