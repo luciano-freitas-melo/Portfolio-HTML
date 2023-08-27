@@ -2,9 +2,8 @@
 .menu-bar {
   height: 15%;
   width: 90%;
-  padding: 0 5%;
+  padding: 0 5% 3%;
   margin-top: 1%;
-  margin-bottom: 5%;
 
   display: flex;
   justify-content: space-between;

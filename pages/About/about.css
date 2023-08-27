@@ -3,3 +3,70 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.about{
+  width: 100%;
+  display: flex;
+}
+
+  .about__left-container{
+    width: 50%;
+    padding: 0 8%;
+  }
+
+  .about__right-container{
+    width: 50%;
+  }
+
+  .about__title{
+    margin-bottom: 0.5em;
+
+    font-family: 'Lora', sans-serif;
+    font-size: 1.5em;
+    color: #2540ac;
+  }
+
+  .about__description{
+    margin-bottom: 1em;
+    line-height: 1.5em;
+
+    font-family: 'Lora', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+  }
+
+.experience{
+  border-left: #2540ac 2px solid;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.5em;
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 0.25em;
+}
+
+  .experience__title{
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+
+    font-family: 'Lora', sans-serif;
+    font-size: 1.3em;
+  }
+
+  .experience__job{
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+
+    font-size: 0.8em;
+  }
+
+  .experience__time{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+
+    font-size: 0.8em;
+    text-align: end;
+    color: rgb(36, 34, 34);
+  }
+
