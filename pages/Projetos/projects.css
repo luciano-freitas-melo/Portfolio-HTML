@@ -17,6 +17,7 @@ body{
     background-color: #ECF2FF;
     flex-flow: column;
     width: 25%;
+    min-height: 530px;
 
     border-radius: 2em;
     box-shadow: 0.2em 0.5em 0.5em rgba(0,0,0,0.74);
@@ -46,7 +47,7 @@ body{
   .projects__title{
     min-height: 2em;
     font-family: 'Lora', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2em;
     text-align: center;
   }
@@ -56,6 +57,8 @@ body{
   }
   .projects__description{
     text-align: justify;
+    font-size: 0.9em;
+    min-height: 150px;
   }
 
   .projects__button-link{
