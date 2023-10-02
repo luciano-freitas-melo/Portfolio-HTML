@@ -1,30 +1,29 @@
 body{
-  background-image: url(/assets/1092593.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0 4%;
 }
-
 .about{
   width: 100%;
   display: flex;
+  gap: 4%;
 }
 
   .about__left-container{
-    width: 40%;
-    padding: 0 4%;
+    width: 50%;
   }
 
   .about__right-container{
-    width: 60%;
+    width: 50%;
+  
   }
 
   .about__title{
     margin-bottom: 0.5em;
 
     font-family: 'Lora', sans-serif;
+    font-weight: 700;
     font-size: 1.5em;
     text-align: center;
-    color: #2540ac;
+    color: #7B3D83;
   }
 
   .about__description{
@@ -32,19 +31,32 @@ body{
     line-height: 1.5em;
 
     font-family: 'Lora', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: justify;
   }
 
 .experience{
-  border-left: #2540ac 2px solid;
-  padding: 0.25em 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.experience__container{
+  border-left: 2px solid;
+  padding: 0 0.5em;
 
   display: grid;
   grid-template-columns: 70% 30%;
   grid-template-rows: 1fr 1fr;
   row-gap: 0.25em;
+  cursor: default;
+
+}
+
+.experience__container:hover{
+  border-left: #8D4796 2px solid;
+  transition: all 0.3s ease-in-out;
 }
 
   .experience__title{
@@ -72,51 +84,56 @@ body{
   }
 
 .skills{
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.2em;
+  gap: 1em;
 }
 
   .skills__container{
-    width: 80%;
-    padding: 1em;
+    width: 94%;
+    padding: 3%;
     border-radius: 5px;
 
-    background: radial-gradient(#7b3d83, #9f66a7);
-    box-shadow: 1em 0.5em 2em rgb(235, 165, 235);
+    background: #4A254F;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5em;
+    gap: 1em;
   }
 
   .skills__title{
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: center;
     color: white;
   }
 
   .skills__icons{
-    color: rgb(240, 188, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    color: #C99FCF;
   }
 
   .skills__description{
-    padding: 0 1em;
-
+    border-top: white solid 1px;
+    padding-top: 1em;
+    font-size: 0.9em;
     line-height: 1.3em;
     text-align: justify;
     color: white;
   }
 
     .skills__description strong{
-      color: rgb(240, 188, 91);
+      font-style: italic;
       font-weight: bold;
     }
 
