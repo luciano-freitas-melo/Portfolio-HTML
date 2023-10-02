@@ -1,29 +1,18 @@
-body{
-  background-image: url(/assets/1092593.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .projetcs{
   width: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 2.5%;
 }
 
   .projects__container{
-    background-color: #ECF2FF;
-    flex-flow: column;
-    width: 25%;
-    min-height: 530px;
+    width: 30%;
+    border: solid 2px #4A254F;
+    height: 520px;
 
-    border-radius: 2em;
-    box-shadow: 0.2em 0.5em 0.5em rgba(0,0,0,0.74);
-    /* -webkit-box-shadow: 1em 1em gray;
-    -moz-box-shadow: 1em 1em gray; */
-    transition: 0.3s;
+    transition: 0.4s;
   }
 
     .projects__container:hover{
@@ -33,7 +22,16 @@ body{
 
   .projects__img{
     width: 100%;
-    border-radius: 2em 2em 0 0 ;
+  }
+
+  /* wrapper of the text container and the button */
+  .projects__wrapper{
+    height: 280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .projects__text-container{
@@ -41,7 +39,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 1.25em 1em;
-    gap: 1.5em;
+    gap: 1em;
   }
 
   .projects__title{
@@ -58,21 +56,23 @@ body{
   .projects__description{
     text-align: justify;
     font-size: 0.9em;
-    min-height: 150px;
   }
 
   .projects__button-link{
-    font-family: 'Lora', serif;
-    text-decoration: none;
-    background-color: #7b3d83;
-    color: #ecece9;
-    border-radius: 50px;
+    width: fit-content;
     padding: 0.8em 0.7em;
+
+    font-family: 'Lora', serif;
+    background-color: #7A3D82;
+    color: #ecece9;
+    border-radius: 0.2em;
     font-size: 1.15em;
+    
     transition: 0.3s all ease-in-out;
+    text-decoration: none;
   }
+
   .projects__button-link:hover{
-    transform: scale(1.05);
     font-weight: bold;
-    background-color: #791f85;
+    background-color: #4A254F;
   }
